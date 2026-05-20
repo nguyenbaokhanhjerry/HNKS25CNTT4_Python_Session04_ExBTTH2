@@ -1,8 +1,8 @@
 total = 0
 count = 0
 
-for day in range(7):
-    revenue = int(input("Nhập doanh thu: "))
+for day in range(1, 8, 1):
+    revenue = int(input(f"Nhập doanh thu Ngày {day}: "))
 
     total = total + revenue
 
