@@ -8,7 +8,7 @@ for day in range(1, 8, 1):
 
     if revenue >= 5000000:
         count = count + 1
-
-print("Tổng doanh thu:", total)
-print("Trung bình:", total / 7)
-print("Số ngày đạt mục tiêu:", count)
+print(" --- BÁO CÁO DOANH THU TUẦN RIKKEI STORE")
+print("Tổng doanh thu cả tuần:", total, "VND")
+print("Doanh thu trung bình mỗi ngày:", total / 7, "VND")
+print("Số ngày đạt doanh thu mục tiêu (>= 5,000,000 VND):", count)
